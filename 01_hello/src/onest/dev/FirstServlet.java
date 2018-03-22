@@ -41,6 +41,7 @@ public class FirstServlet extends HttpServlet {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		String name = request.getParameter("name");
 		System.out.println("asdfasdfsadf");
+		System.out.println("asdf");
 		response.getWriter().print(name);
 	}
 
