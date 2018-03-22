@@ -29,6 +29,7 @@ public class FirstServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		doPost(request,response);
+		
 	}
 
 	/**
@@ -39,12 +40,16 @@ public class FirstServlet extends HttpServlet {
 		//doGet(request, response);
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		String name = request.getParameter("name");
+		System.out.println("asdfasdfsadf");
+		System.out.println("asdf");
 		response.getWriter().print(name);
 		
 	}
 	
     public void a() {
     	System.out.println("aaa");
-    	//ssss
+
+    	//asdfasdf
+
     }
 }
