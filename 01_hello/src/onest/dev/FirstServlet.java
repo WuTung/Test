@@ -43,6 +43,11 @@ public class FirstServlet extends HttpServlet {
 		System.out.println("asdfasdfsadf");
 		System.out.println("asdf");
 		response.getWriter().print(name);
+		
 	}
-
+	
+    public void a() {
+    	System.out.println("aaa");
+    	//asdfasdf
+    }
 }
