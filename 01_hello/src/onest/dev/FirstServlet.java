@@ -29,7 +29,7 @@ public class FirstServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		doPost(request,response);
-		System.out.print(b);
+		System.out.print("b");
 	}
 
 	/**
